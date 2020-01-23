@@ -10,13 +10,17 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from 'selenium-webdriver/http';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ListComponent,
     AboutusComponent,
-    ContactusComponent
+    ContactusComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
