@@ -1,0 +1,42 @@
+span {
+  font-weight: bold;
+  background-color: lightgray;
+  padding: 0.3em 0.8em;
+  cursor: pointer;
+
+  user-select: none;
+}
+.play-container {
+  padding: 3em;
+  border: solid 1px green;
+  margin-bottom: 1em;
+  input {
+    padding: 1em;
+    margin-bottom: 2em;
+  }
+}
+
+.play-container1 {
+  width: 50%;
+  padding: 0.5em;
+  border: solid 1px green;
+  margin-bottom: 1em;
+
+  input {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    float: left;
+  }
+}
+
+.active {
+  font-weight: 300px;
+  border: 1px solid blue;
+  font-style: italic;
+}
+.notactive {
+
+  background: greenyellow;
+  border-style: dashed;
+  border: 2px;
+}
