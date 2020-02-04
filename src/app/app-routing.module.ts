@@ -6,6 +6,8 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent} from './register/register.component';
+import { ProductsComponent} from './products/products.component';
+import { ServicesComponent} from './services/services.component';
 import { from } from 'rxjs';
 
 const routes: Routes = [
@@ -14,7 +16,9 @@ const routes: Routes = [
   {path: 'aboutus', component: AboutusComponent},
   {path: 'contactus', component: ContactusComponent},
   {path: 'login', component: LoginComponent},
-  {path: 'register', component: RegisterComponent}
+  {path: 'register', component: RegisterComponent},
+  {path: 'products', component: ProductsComponent},
+  { path: 'services', component: ServicesComponent}
 ];
 
 @NgModule({

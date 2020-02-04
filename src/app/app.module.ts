@@ -12,6 +12,8 @@ import { HttpClient } from 'selenium-webdriver/http';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { ProductsComponent } from './products/products.component';
+import { ServicesComponent } from './services/services.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,9 @@ import { RegisterComponent } from './register/register.component';
     AboutusComponent,
     ContactusComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ProductsComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
